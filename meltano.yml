@@ -16,6 +16,9 @@ plugins:
   - name: tap-zendesk
     variant: meltanolabs
     pip_url: git+https://github.com/MeltanoLabs/tap-zendesk@v0.1.0
+  - name: tap-google-sheets
+    variant: matatika
+    pip_url: git+https://github.com/Matatika/tap-google-sheets@v0.7.0
   loaders:
   - name: target-postgres
     variant: matatika
